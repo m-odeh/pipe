@@ -1,0 +1,32 @@
+file_type: csv
+dataset_name: nyt_comments
+file_name: nyt_comments
+table_name: nyt
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_loading_rows: 1
+
+columns:
+    - commentID 
+    - status
+    - commentSequence
+    - userID
+    - userDisplayName
+    - userLocation
+    - userTitle
+    - commentBody
+    - createDate
+    - updateDate
+    - approveDate
+    - recommendations
+    - replyCount
+    - editorsSelection
+    - parentID
+    - parentUserDisplayName
+    - depth
+    - commentType
+    - trusted
+    - recommendedFlag
+    - permID
+    - isAnonymous
+    - articleID
